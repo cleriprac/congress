@@ -8,3 +8,16 @@
   border: 1px solid gray;
   border-radius: 10px;
 }
+
+.logo {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img-alligator {
+  text-align: center;
+}
+
+.header-style {
+  height: 100px;
+}
