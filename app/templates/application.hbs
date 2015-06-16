@@ -1,3 +1,12 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h2 id="title" class="text-center">{{#link-to 'legislators'}}Alligator Congress{{/link-to}}</h2>
+<nav class="navbar navbar-default" role="navigation">
+  <ul class="nav navbar-nav">
+    <li>{{#link-to 'upcomingbills'}}Upcoming Bills{{/link-to}}</li>
+  </ul>
 
-{{outlet}}
+</nav>
+
+<div class="container">
+
+  {{outlet}}
+</div>

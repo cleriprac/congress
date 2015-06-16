@@ -1,0 +1,10 @@
+.legislator-name {
+  color: green;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.table-style {
+  border: 1px solid gray;
+  border-radius: 10px;
+}

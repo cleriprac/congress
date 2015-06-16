@@ -1,0 +1,17 @@
+<div class="col-md-5">
+
+  <h2>Alligator Lookup</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="zip">Zip</label>
+      {{input value=zip id="zip"}}
+    </div>
+
+    <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+  </form>
+</div>
+<div class="col-md-7">
+
+{{outlet}}
+</div>
